@@ -2,8 +2,7 @@
 
 *****Lưu ý quan trọng:**
 - SIM phải được đăng ký 4G và dịch vụ VoLTE (HD Voice) trước khi sử dụng!!!
-- Đây là mạch phát triển được dùng cho mục đích thử nghiệm, nghiên cứu, học tập và không thể hoạt động độc lập. Nếu sử dụng mạch này kèm các bộ phận khác để tạo ra các sản phẩm hoàn chỉnh chúng tôi từ chối trách nhiệm với các chức năng của sản phẩm này.
-
+- Sản phẩm này là mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh và không thể hoạt động độc lập như một sản phẩm thương mại. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng, độ an toàn và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người sử dụng.
 ## Giới thiệu
 MKE-M21 SIM768x 4G SMS/CALL IoT Module giúp các bạn có thể dễ dàng gọi điện hoặc gửi tin nhắn SMS qua nền tảng 4G thay thế cho các module SIM sử dụng 2G cũ hiện đã ngưng hoạt động, module được thiết kế nhỏ gọn với khối SIM và khối cấp nguồn tách rời giúp bạn dễ dàng lựa chọn phiên bản kèm khối cấp nguồn hoặc không kèm khối cấp nguồn (phiên bản không kèm khối cấp nguồn sẽ tương thích về kích thước và chuẩn chân với module SIM800C 2G cũ), thích hợp với các ứng dụng IoT, cảnh báo, gọi điện, nhắn tin qua 4G.
 
