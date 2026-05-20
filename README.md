@@ -95,6 +95,9 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 
 Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT** trên [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT). Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
 
+## Video hướng dẫn sử dụng
+[![MKE-M21 SIM7680C](/extras/MKE-M21_0.png)](https://www.youtube.com/watch?v=FYb1NnckQT8)
+
 ## Kích thước sản phẩm
 ### Khối SIM7680x
 ![MKE-M21 SIM7680C](/extras/MKE-M21_1.jpg)
