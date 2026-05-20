@@ -75,30 +75,36 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 | TX   | Chân UART TX |
 | RX   | Chân UART RX |
 ## Hướng dẫn sử dụng
-### Hướng dẫn kết nối
+### Hướng dẫn kết nối khi sử dụng cùng với khối cấp nguồn
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
-- kết nối chân TRIG và ECHO của Sensor với chân điều khiển được khai báo trong chương trình.
+- kết nối chân TX và RX của Module với chân điều khiển được khai báo trong chương trình.
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu **"MKE_S01_Ultrasonic_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_S01_Ultrasonic**
+- Mở chương trình mẫu **"MKE_M21_SIM7680C_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / M21_SIM7680C**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
-- Cấp nguồn 5VDC cho mạch, kết nối chân TRIG và ECHO của Sensor với chân điều khiển được khai báo trong chương trình.
+- Cấp nguồn 5VDC cho mạch, kết nối chân TX và RX của Module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
 - Khởi động [Microsoft MakeCode](https://makecode.microbit.org/) và **Import** chương trình theo đường link sau: `https://github.com/makereduvn/mke_s01_ultrasonic_microbit/`
 - Kết nối mạch Micro:bit và **Download** chương trình.
-- Cấp nguồn 5VDC cho mạch, kết nối chân TRIG và ECHO của Sensor với chân điều khiển được khai báo trong chương trình.
+- Cấp nguồn 5VDC cho mạch, kết nối chân TX và RX của Module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT** trên [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT). Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
 
 ## Kích thước sản phẩm
-![MKE-S01 Ultrasonic](/extras/MKE-S01_1.jpg)
+### Khối SIM7680x
+![MKE-M21 SIM7680C](/extras/MKE-M21_1.jpg)
+### Khối cấp nguồn
+![MKE-M21 SIM7680C](/extras/MKE-M21_2.jpg)
 
 ## Hình ảnh sản phẩm
-![MKE-S01 Ultrasonic](/extras/MKE-S01_2.png)
-![MKE-S01 Ultrasonic](/extras/MKE-S01_3.png)
-
+### Khối SIM7680x
+![MKE-M21 SIM7680C](/extras/MKE-M21_3.png)
+![MKE-M21 SIM7680C](/extras/MKE-M21_4.png)
+### Khối cấp nguồn
+![MKE-M21 SIM7680C](/extras/MKE-M21_5.png)
+![MKE-M21 SIM7680C](/extras/MKE-M21_6.png)
