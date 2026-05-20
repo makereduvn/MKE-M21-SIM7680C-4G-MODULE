@@ -49,7 +49,7 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 - Đi kèm cáp kết nối: 4P XH2.54 – Dupont
 
 ## Các chân tín hiệu
-### Các chân tín hiệu trên khối SIM7680x
+### Các chân tín hiệu trên khối SIM7680C
 
 | Chân | Ghi chú |
 |------|---------|
@@ -74,8 +74,8 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 | 5V   | Chân cấp nguồn dương 5 ~ 24VDC |
 | TX   | Chân UART TX |
 | RX   | Chân UART RX |
-## Hướng dẫn sử dụng
-### Hướng dẫn kết nối khi sử dụng cùng với khối cấp nguồn
+## Hướng dẫn sử dụng (Khối SIM7680C đi kèm Khối cấp nguồn)
+### Hướng dẫn kết nối
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
 - kết nối chân TX và RX của Module với chân điều khiển được khai báo trong chương trình.
 
