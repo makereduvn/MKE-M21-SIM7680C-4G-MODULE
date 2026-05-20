@@ -1,8 +1,9 @@
 # Mạch MKE-M21 SIM7680C 4G SMS/CALL Module
 
+_**Miễn trừ trách nhiệm:** _Sản phẩm này là bo mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người dùng.__
+
 *****Lưu ý quan trọng:**
 - SIM phải được đăng ký 4G và dịch vụ VoLTE (HD Voice) trước khi sử dụng!!!
-- Sản phẩm này là mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh và không thể hoạt động độc lập như một sản phẩm thương mại. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng, độ an toàn và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người sử dụng.
 
 ## Giới thiệu
 MKE-M21 SIM7680C 4G SMS/CALL Module là mạch phát triển sử dụng IC SIM7680C, cho phép thực hiện các chức năng gọi điện thoại (Voice Call) và gửi/nhận tin nhắn SMS trên nền tảng mạng 4G LTE CAT1, thay thế hoàn toàn cho các module 2G như SIM800C hiện đã không còn hoạt động tại nhiều khu vực.
@@ -94,6 +95,9 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
 
 Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT** trên [Microsoft MakeCode](https://makecode.microbit.org/) theo [hướng dẫn tại đây](https://github.com/makereduvn/MKE_ONE_MICROBIT). Sau khi cài đặt thành công, các khối lệnh của Extension **MKE_ONE_MICROBIT** sẽ xuất hiện trong danh sách block và sẵn sàng để sử dụng.
+
+## Video hướng dẫn sử dụng
+[![MKE-M21 SIM7680C](/extras/MKE-M21_0.png)](https://www.youtube.com/watch?v=FYb1NnckQT8)
 
 ## Kích thước sản phẩm
 ### Khối SIM7680x
