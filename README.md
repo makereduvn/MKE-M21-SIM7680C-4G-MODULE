@@ -104,7 +104,5 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ### Khối SIM7680x
 ![MKE-M21 SIM7680C](/extras/MKE-M21_3.png)
-![MKE-M21 SIM7680C](/extras/MKE-M21_4.png)
 ### Khối cấp nguồn
-![MKE-M21 SIM7680C](/extras/MKE-M21_5.png)
-![MKE-M21 SIM7680C](/extras/MKE-M21_6.png)
+![MKE-M21 SIM7680C](/extras/MKE-M21_4.png)
