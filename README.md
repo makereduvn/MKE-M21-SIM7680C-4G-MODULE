@@ -5,78 +5,75 @@
 - Sản phẩm này là mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh và không thể hoạt động độc lập như một sản phẩm thương mại. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng, độ an toàn và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người sử dụng.
 
 ## Giới thiệu
-Mạch MKE-M21 SIM7680C 4G SMS/CALL Module giúp các bạn có thể dễ dàng gọi điện hoặc gửi tin nhắn SMS qua nền tảng 4G thay thế cho các Module SIM sử dụng 2G cũ hiện đã ngưng hoạt động, module được thiết kế nhỏ gọn với khối SIM và khối cấp nguồn tách rời giúp bạn dễ dàng lựa chọn phiên bản kèm khối cấp nguồn hoặc không kèm khối cấp nguồn (phiên bản không kèm khối cấp nguồn sẽ tương thích về kích thước và chuẩn chân với module SIM800C 2G cũ), thích hợp với các ứng dụng IoT, cảnh báo, gọi điện, nhắn tin qua 4G.
+MKE-M21 SIM7680C 4G SMS/CALL Module là mạch phát triển sử dụng IC SIM7680C, cho phép thực hiện các chức năng gọi điện thoại (Voice Call) và gửi/nhận tin nhắn SMS trên nền tảng mạng 4G LTE CAT1, thay thế hoàn toàn cho các module 2G như SIM800C hiện đã không còn hoạt động tại nhiều khu vực.
 
-Mạch MKE-M21 SIM7680C 4G SMS/CALL Module hỗ trợ điện áp giao tiếp 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch đi kèm cáp kết nối 3P XH2.54–Dupont đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối.
+Module được thiết kế nhỏ gọn với khối SIM và khối cấp nguồn tách rời, giúp người dùng dễ dàng lựa chọn phiên bản có hoặc không kèm khối nguồn. Phiên bản không kèm khối cấp nguồn vẫn giữ nguyên kích thước và chuẩn chân tương thích với các module SIM800C cũ, giúp nâng cấp hệ thống hiện có một cách thuận tiện mà không cần thay đổi nhiều về cơ khí và kết nối.
+
+Mạch được ứng dụng rộng rãi trong nhiều hệ thống thực tế như: thiết bị cảnh báo qua điện thoại, hệ thống chống trộm, bộ gọi điện khẩn cấp, thiết bị giám sát từ xa, nhà thông minh, bộ điều khiển công nghiệp, hệ thống thông báo tự động, hệ thống IoT và các thiết bị cần truyền thông qua mạng di động 4G.
+
+Sản phẩm đặc biệt phù hợp cho các mô hình robot, dự án STEM, đồ án học tập và thực hành điện – điện tử, giúp người học dễ dàng tiếp cận công nghệ truyền thông di động, giao tiếp UART, điều khiển module bằng tập lệnh AT Command và xây dựng các hệ thống IoT hiện đại. Đây là công cụ lý tưởng cho học sinh, sinh viên, giáo viên giảng dạy STEM, kỹ sư nghiên cứu và những người yêu thích sáng tạo công nghệ.
+
+MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nối trực tiếp và an toàn với Arduino, Raspberry Pi, NVIDIA, Micro:bit Educational Foundation và nhiều nền tảng điều khiển khác. Sản phẩm đi kèm cáp kết nối 4P XH2.54 – Dupont, đảm bảo kết nối chắc chắn, ổn định và linh hoạt trong quá trình sử dụng.
 
 ## Thông số kỹ thuật
 - IC chính: SIM7680C
-- Sử dụng 4G LTE CAT1
-- Sử dụng 4G Nano SIM
+- Công nghệ mạng: 4G LTE CAT1
+- Chức năng hỗ trợ:
+  - Gọi điện thoại (Voice Call)
+  - Gửi và nhận tin nhắn SMS
+  - Điều khiển bằng tập lệnh AT Command
+- Loại SIM sử dụng: Nano SIM 4G
 - Điện áp hoạt động:
-  - Cấp nguồn trực tiếp vào khối SIM, không đi kèm khối cấp nguồn: 3.7~4VDC
-  - Cấp nguồn qua khối cấp nguồn: 5~24VDC
-- Dòng điện tiêu thụ khi hoạt động: Trung bình 300mA, khi gọi hoặc nhắn tin có những thời điểm có thể lên tới 1A.
-- Chuẩn giao tiếp: UART, Baudrate được thiết lập mặc định 9600 (Quan trọng: Test thực tế với Arduino set baudrate cao như 115200 truyền nhận rất dễ lỗi khiến module hoạt động kém ổn định) 
+  - Cấp trực tiếp vào khối SIM (không kèm khối cấp nguồn): 3.7 ~ 4.0VDC
+  - Cấp qua khối cấp nguồn đi kèm: 5 ~ 24VDC
+- Dòng điện tiêu thụ:
+  - Trung bình khoảng 300mA
+  - Khi gọi điện hoặc nhắn tin có thể xuất hiện các xung dòng tức thời lên đến 1A
+- Chuẩn giao tiếp: UART
+- Baudrate mặc định: 9600bps
+- Khuyến nghị sử dụng:
+  - Nên sử dụng baudrate 9600bps để đảm bảo truyền nhận dữ liệu ổn định
+  - Thiết lập baudrate quá cao (ví dụ 115200bps) trên một số nền tảng như Arduino có thể gây lỗi truyền dữ liệu và làm module hoạt động kém ổn định
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
-- Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Khả năng tương thích:
   - Arduino
   - Raspberry Pi
   - Jetson Nano
   - Micro:bit
-  - Và các board điều khiển 3.3/5VDC khác
+  - Và các board điều khiển 3.3VDC / 5VDC khác
 - Thiết kế mạch:
   - Hoạt động ổn định, chống nhiễu tốt
-  - Giao tiếp đơn giản chỉ với 2 dây tín hiệu
+  - Khối nguồn tách rời linh hoạt
+  - Giao tiếp UART đơn giản chỉ với hai chân TX và RX
   - Phù hợp cho ứng dụng học tập và thực tế
 - Đi kèm cáp kết nối: 4P XH2.54 – Dupont
 
 ## Các chân tín hiệu
-Chân tín hiệu trên khối SIM7680x:
-- NET:	Chân trạng thái được nối với led STT
-- NC:	Chân không kết nối
-- MIC+: Chân Micro
-- MIC-: Chân Micro
-- SP+: Chân Speaker
-- SP-: Chân Speaker
-- ATN: Chân Antenna
-- 4V: Chân cấp nguồn dương từ 3.7~4VDC
-- RST: Chân Reset của
-- RX: chân UART RX tương thích 3.3/5VDC (có qua mạch chuyển mức tín hiệu)
-- TX: chân UART TX tương thích 3.3/5VDC (có qua mạch chuyển mức tín hiệu)
-- GND: chân cấp nguồn âm 0VDC
+### Các chân tín hiệu trên khối SIM7680x
 
-Chân tín hiệu khi sử dụng kèm khối cấp nguồn:
-- GND:	Chân cấp nguồn âm 0VDC
-- 5V:	Chân cấp nguồn dương 5~24VDC
-- TX: Chân UART TX
-- RX: Chân UART RX
+| Chân | Ghi chú |
+|------|---------|
+| NET  | Chân trạng thái, được nối với LED STT |
+| NC   | Chân không kết nối (No Connect) |
+| MIC+ | Chân kết nối Micro (+) |
+| MIC- | Chân kết nối Micro (-) |
+| SP+  | Chân kết nối Speaker (+) |
+| SP-  | Chân kết nối Speaker (-) |
+| ATN  | Chân kết nối Antenna |
+| 4V   | Chân cấp nguồn dương 3.7 ~ 4.0VDC |
+| RST  | Chân Reset của module |
+| RX   | Chân UART RX, tương thích TTL 3.3VDC / 5VDC (có tích hợp mạch chuyển mức tín hiệu) |
+| TX   | Chân UART TX, tương thích TTL 3.3VDC / 5VDC (có tích hợp mạch chuyển mức tín hiệu) |
+| GND  | Chân cấp nguồn âm 0VDC |
 
-<table><thead>
-  <tr>
-    <th>MKE-S01</th>
-    <th>Ghi chú</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>GND</td>
-    <td>Chân cấp nguồn âm 0VDC</td>
-  </tr>
-  <tr>
-    <td>5V</td>
-    <td>Chân cấp nguồn dương 5VDC</td>
-  </tr>
-  <tr>
-    <td>TRIG</td>
-    <td>Chân tín hiệu ngõ vào Trigger</td>
-  </tr>
-  <tr>
-    <td>ECHO</td>
-    <td>Chân tín hiệu ngõ ra Echo</td>
-  </tr>
-</tbody>
-</table>
+### Các chân tín hiệu khi sử dụng kèm khối cấp nguồn
+
+| Chân | Ghi chú |
+|------|---------|
+| GND  | Chân cấp nguồn âm 0VDC |
+| 5V   | Chân cấp nguồn dương 5 ~ 24VDC |
+| TX   | Chân UART TX |
+| RX   | Chân UART RX |
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
