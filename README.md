@@ -1,8 +1,10 @@
 # Mạch MKE-M21 SIM7680C 4G SMS/CALL Module
 
+**Miễn trừ trách nhiệm:**
+- Sản phẩm này là mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh và không thể hoạt động độc lập như một sản phẩm thương mại. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người dùng.
+
 *****Lưu ý quan trọng:**
 - SIM phải được đăng ký 4G và dịch vụ VoLTE (HD Voice) trước khi sử dụng!!!
-- Sản phẩm này là mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh và không thể hoạt động độc lập như một sản phẩm thương mại. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng, độ an toàn và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người sử dụng.
 
 ## Giới thiệu
 MKE-M21 SIM7680C 4G SMS/CALL Module là mạch phát triển sử dụng IC SIM7680C, cho phép thực hiện các chức năng gọi điện thoại (Voice Call) và gửi/nhận tin nhắn SMS trên nền tảng mạng 4G LTE CAT1, thay thế hoàn toàn cho các module 2G như SIM800C hiện đã không còn hoạt động tại nhiều khu vực.
