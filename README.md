@@ -88,7 +88,7 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
-- Khởi động [Microsoft MakeCode](https://makecode.microbit.org/) và **Import** chương trình theo đường link sau: `https://github.com/makereduvn/mke_s01_ultrasonic_microbit/`
+- Khởi động [Microsoft MakeCode](https://makecode.microbit.org/) và **Import** chương trình theo đường link sau: `https://github.com/makereduvn/mke_m21_sim7680c_microbit/`
 - Kết nối mạch Micro:bit và **Download** chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân TX và RX của Module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
