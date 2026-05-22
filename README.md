@@ -1,7 +1,5 @@
 # Mạch MKE-M21 SIM7680C 4G SMS/CALL Module
 
-_**Miễn trừ trách nhiệm:** _Sản phẩm này là bo mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người dùng.__
-
 *****Lưu ý quan trọng:**
 - SIM phải được đăng ký 4G và dịch vụ VoLTE (HD Voice) trước khi sử dụng!!!
 
@@ -82,7 +80,7 @@ MKE-M21 hỗ trợ điện áp giao tiếp 3.3VDC và 5VDC, cho phép kết nố
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu **"MKE_M21_SIM7680C_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / M21_SIM7680C**
+- Mở chương trình mẫu tại **File / Examples / MKE_ONE / Module / M21_SIM7680C**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân TX và RX của Module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
@@ -110,3 +108,6 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ![MKE-M21 SIM7680C](/extras/MKE-M21_3.png)
 ### Khối cấp nguồn
 ![MKE-M21 SIM7680C](/extras/MKE-M21_4.png)
+
+## Miễn trừ trách nhiệm:
+Sản phẩm này là bo mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người dùng.
